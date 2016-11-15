@@ -1,0 +1,48 @@
+{
+  "places": [
+  {
+    "title" : "Kandy",
+    "number" : "1",
+    "other" : ["Qui-Gon Jinn", "Obi-Wan Kenobi", "Anakin Skywalker", "Padmé Amidala", "Jar Jar Binks", "Darth Maul"],
+    "description" : "Kandy is a large city in central Sri Lanka. It's set on a plateau surrounded by mountains, which are home to tea plantations and biodiverse rainforest. The city's heart is scenic Kandy Lake (Bogambara Lake), which is popular for strolling. Kandy is famed for sacred Buddhist sites, including the Temple of the Tooth (Sri Dalada Maligawa) shrine, celebrated with the grand Esala Perahera annual procession.",
+    "poster" : "kandy.png",
+    "hero_image" : "kandy_cover.jpg"
+  }, {
+    "title" : "Trincomalee",
+    "number" : "2",
+    "other" : ["Qui-Gon Jinn", "Obi-Wan Kenobi", "Anakin Skywalker", "Padmé Amidala", "Jar Jar Binks", "Darth Maul"],
+    "description" : "Trincomalee also known as Gokanna, is the administrative headquarters of the Trincomalee District and major resort port city of Eastern Province, Sri Lanka.",
+    "poster" : "trinco.png",
+    "hero_image" : "trinco_cover.jpg"
+  }, {
+    "title" : "Hikkaduwa",
+    "number" : "3",
+    "other" : ["Qui-Gon Jinn", "Obi-Wan Kenobi", "Anakin Skywalker", "Padmé Amidala", "Jar Jar Binks", "Darth Maul"],
+    "description" : "Hikkaduwa is a small town on the south coast of Sri Lanka located in the Southern Province, about 17 km north-west of Galle and 98 km south of Colombo.",
+    "poster" : "hikkaduwa.png",
+    "hero_image" : "hikkaduwa_cover.jpg"
+  }, {
+    "title" : "Badulla",
+    "number" : "4",
+    "other" : ["Qui-Gon Jinn", "Obi-Wan Kenobi", "Anakin Skywalker", "Padmé Amidala", "Jar Jar Binks", "Darth Maul"],
+    "description" : "Badulla is a district in Uva Province, Sri Lanka. The entire land area of the Badulla district is 2,861 km² and total population is 837,000.",
+    "poster" : "badulla.png",
+    "hero_image" : "badulla_cover.jpg"
+  }, {
+    "title" : "Galle",
+    "number" : "5",
+    "other" : ["Qui-Gon Jinn", "Obi-Wan Kenobi", "Anakin Skywalker", "Padmé Amidala", "Jar Jar Binks", "Darth Maul"],
+    "description" : "Galle is a major city in Sri Lanka, situated on the southwestern tip, 119 km from Colombo. Galle is the administrative capital of Southern Province, Sri Lanka and is the district capital of Galle District.",
+    "poster" : "galle.png",
+    "hero_image" : "galle_cover.jpg"
+  }, {
+    "title" : "Ratnapura",
+    "number" : "6",
+    "other" : ["Qui-Gon Jinn", "Obi-Wan Kenobi", "Anakin Skywalker", "Padmé Amidala", "Jar Jar Binks", "Darth Maul"],
+    "description" : "Ratnapura is a major city in Sri Lanka. It is the capital city of Sabaragamuwa Province, as well as the Ratnapura District, and is a traditional centre for the Sri Lankan gem trade.",
+    "poster" : "rathnapura.png",
+    "hero_image" : "rathnapura_cover.jpg"
+  }
+  ]
+
+}

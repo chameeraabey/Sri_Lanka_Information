@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="destinations">
+  <head>
+  	<% include partials/head.ejs %>
+  </head>
+  <body>
+
+      <% include partials/header.ejs %>
+
+      <div id="hero-image">
+        <h1 id="hero-title">Beautiful Sri Lanka</h1>
+      </div>     
+      <div id="posters-wrapper" class="content-padding clearfix">
+        <%  for(var i=0;i<places.length;i++){%>
+          <div class="poster">
+
+              <a href="/visit/<%= places[i].number%>">
+
+                <img src="/images/<%=places[i].poster%>" class="img-responsive">
+
+                <div class="poster-info-overlay">
+                  <h3><%= places[i].title%></h3>
+                  <h4>View More <i class="fa fa-arrow-right"></i></h4>
+                </div>
+             </a>
+          </div>       
+        <%}%>
+      </div>
+
+        <% include partials/footer.ejs %>
+    	   <% include partials/scripts.ejs %>
+  </body>
+</html>
