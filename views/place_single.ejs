@@ -2,6 +2,12 @@
 <html lang="en">
   <head>
   	<% include partials/head.ejs %>
+    <style type="text/css">
+      iframe {
+        width: 640px;
+        height: 360px;
+      }
+    </style>
   </head>
   <body>
 
@@ -24,9 +30,11 @@
           </div>
 
           <div class="main-characters">
-            <h2 class="movie-header">Other</h2>
+            <h2 class="movie-header">Video</h2>         
           </div>
-
+          <div class="poster-wrapper">
+              <%-video %>
+          </div>
         </div>
       </div>      
       <% include partials/footer.ejs %>
