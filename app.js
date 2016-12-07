@@ -22,6 +22,8 @@ app.get('/visit/:visit_no?',routes.single);
 //Weather route
 app.get('/weather',routes.wheather);
 
+
+app.get('/sendSMS',routes.sendSMS);
 //Page not found route
 app.get('*',routes.notFound);
 

@@ -3,6 +3,8 @@ var infoJson=require('../info.json');
 
 var embed = require("embed-video");
 
+var client=require('twilio')('ACf77c64677a2d4847fe9a17d3eb9105b9','570b488c3e91affc5dd6f75b82de820e');
+
 
 
 //Routes
@@ -49,6 +51,19 @@ exports.single=function(req,res){
 	}
 
 	
+};
+
+exports.sendSMS=function(req,res){
+	client.sendMessage({
+		to: '+94716936850',
+		from: '+12019037875',
+		body: 'Chameera is testing his sms application'
+	},function(err,data){
+		if(err)
+			console.log(err);
+		res.send('The SMS sent');
+	});
+
 };
 
 //Weather route

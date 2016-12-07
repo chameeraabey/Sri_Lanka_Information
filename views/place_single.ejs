@@ -12,15 +12,15 @@
   <body>
 
       <% include partials/header.ejs %>
-
+      <div class="row">
       <div id="hero-image-single" style="background-image: url('/images/<%=place.hero_image%>')">
         <h1 id="hero-title"><%=title%></h1>
       </div>
-
       <div class="content-padding clearfix">
         <div class="poster-wrapper">
           <img src="/images/<%= place.poster%>" class="img-responsive">
         </div>
+
 
         <div class="description-wrapper">
 
@@ -29,14 +29,26 @@
               <p><%= place.description%></p>
           </div>
 
+          <div class="description">
+            <h2 class="movie-header">Get More Information</h2>
+            <p>If you are willing to get more information about this enter your phone number here and we will send you an SMS and will contact you later.</p>
+              <form action="/sendSMS" class="navbar-form ">
+                <div class="form-group">
+                <input type="tel" pattern="^\d{4}-\d{3}-\d{4}$" class="form-control" placeholder="Your phone number" >
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+          </div>
+
           <div class="main-characters">
             <h2 class="movie-header">Video</h2>         
           </div>
           <div class="poster-wrapper">
               <%-video %>
           </div>
-        </div>
-      </div>      
+        </div>     
+      </div> 
+      </div>   
       <% include partials/footer.ejs %>
     	<% include partials/scripts.ejs %>
   </body>
